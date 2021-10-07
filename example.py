@@ -8,4 +8,4 @@ def add(a, b):
     return a + b
 
 def test_add():
-    assert add(2.0, 3.0) = approx(5.0)
+    assert add(2.0, 3.0) == approx(5.0)
