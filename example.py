@@ -9,3 +9,9 @@ def add(a, b):
 
 def test_add():
     assert add(2.0, 3.0) == approx(5.0)
+
+def subtract(a, b):
+    return a + b  # <--- fix this 
+
+def test_subtract():
+    assert subtract(2, 3) == -1
